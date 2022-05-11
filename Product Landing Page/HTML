@@ -1,0 +1,121 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+<div class="container" id="header-container">
+  <header id="header">
+    <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img" alt="music" />
+    <nav id="nav-bar">
+      <ul id="nav-list">
+        <li class="nav-link" id="features-link" href="#features">Features</li>
+        <li class="nav-link" id="how-it-works-link" href="#how-it-works">How It Works</li>
+        <li class="nav-link" id="pricing-link" href="#pricing">Pricing</li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="container" id="form-container">
+  <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <h2 id="form-header">
+      Handcrafted, home-made masterpieces
+    </h2>
+    <div class="container" id="inner-form-container">
+      <input type="email" placeholder="Enter your email address" id="email" name="email" required>
+      <input type="submit" id="submit" value="GET STARTED">
+    </div>
+  </form>
+</div>
+
+<div class="container" id="features">
+  <ul class="features-list">
+    <li class="features-list-item" id="premium-materials">
+      <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+      <h2 class="list-header" id="premium-materials-header">Premium Materials</h2>
+      <p class="features-p" id="premium-materials-p">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+    </li>
+    <li class="features-list-item" id="fast-shipping">
+      <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+      <h2 class="list-header" id="fast-shipping-header">Fast Shipping</h2>
+      <p class="features-p" id="fast-shipping-p">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    </li>
+    <li class="features-list-item" id="quality-assurance">
+      <div class="icon">
+        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+      </div>
+      <h2 class="list-header" id="quality-assurance-header">Quality Assurance</h2>
+      <p class="features-p" id="quality-assurance-p">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+    </li>
+  </ul>
+</div>
+
+<div class="container" id="how-it-works">
+  <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="container" id="pricing">
+  <ul class="pricing-list">
+    <li class="pricing-list-item" id="tenor">
+      <h3 class="pricing-header" id="tenor-header">
+        TENOR TROMBONE
+      </h3>
+      <h2 class="pricing-price">$600</h2>
+      <ul class="pricing-list-desc">
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+        <li class="pricing-list-desc-item dolor">Lorem ipsum dolor.</li>
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+      </ul>
+      <button class="button">SELECT</button>
+    </li>
+    <li class="pricing-list-item" id="bass">
+      <h3 class="pricing-header" id="bass-header">
+        BASS TROMBONE
+      </h3>
+      <h2 class="pricing-price">$900</h2>
+      <ul class="pricing-list-desc">
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+        <li class="pricing-list-desc-item dolor">Lorem ipsum dolor.</li>
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+      </ul>
+      <button class="button">SELECT</button>
+
+    </li>
+    <li class="pricing-list-item" id="valve">
+      <h3 class="pricing-header" id="valve-header">
+        VALVE TROMBONE
+      </h3>
+      <h2 class="pricing-price">$1200</h2>
+      <ul class="pricing-list-desc">
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+        <li class="pricing-list-desc-item dolor">Lorem ipsum dolor.</li>
+        <li class="pricing-list-desc-item">Lorem ipsum.</li>
+      </ul>
+      <button class="button">SELECT</button>
+    </li>
+  </ul>
+</div>
+<div class="footer">
+  <ul class="footer-list">
+    <li class="footer-list-item" id="privacy">
+      Privacy
+    </li>
+    <li class="footer-list-item" id="terms">
+      Terms
+    </li>
+    <li class="footer-list-item" id="contract">
+      Contract
+    </li>
+  </ul>
+  <p id="copyright">Copyright 2016, Original Trombones</p>
+</div>
