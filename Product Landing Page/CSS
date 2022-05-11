@@ -1,0 +1,194 @@
+body {
+  font-family: arial;
+  background-color: #eee;
+}
+
+img {
+  display: flex;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+}
+
+#header-container {
+  z-index: 1;
+  height: 50px;
+}
+
+#header-img {
+  width: 300px;
+  margin-top: 10px;
+}
+
+#nav-bar {
+  float: right;
+  margin-left: 640px;
+}
+
+#nav-list {
+  margin-top: -30px;
+}
+
+.nav-link {
+  display: inline;
+  margin-right: 50px;
+}
+
+#features {
+  height: 400px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+#form-container {
+  height: 200px;
+}
+
+#form-header {
+  text-align: center;
+  font-weight: 600;
+}
+
+#inner-form-container {
+  width: 100px;
+}
+
+#email {
+  width: 290px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 1.5px;
+  margin-left: 380px;
+}
+
+#submit {
+  margin-left: 450px;
+  margin-top: 15px;
+  height: 30px;
+  width: 150px;
+  background-color: gold;
+  border: 1px solid gold;
+  color: black;
+  font-weight: 800;
+}
+
+.features-list {
+  list-style-type: none;
+  margin-left: 60px;
+}
+
+.features-list-item {
+  margin-bottom: 70px;
+}
+
+.icon {
+  color: orange;
+  margin-left: 0px;
+  margin-bottom: -60px;
+}
+
+.list-header {
+  margin-left: 120px;
+}
+
+.features-p {
+  margin-left: 120px;
+  margin-top: -20px;
+}
+
+#how-it-works {
+  width: 100%;
+  height: 400px;
+}
+
+#video {
+  margin-left: 250px;
+  height: 300px;
+  width: 600px;
+}
+
+#pricing {
+  width: 100%;
+  height: 360px;
+}
+
+.pricing-list-item {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.pricing-header {
+  font-weight: 500;
+  background-color: #ddd;
+  height: 35px;
+  margin-top: 0px;
+  padding-left: 67px;
+  padding-top: 15px;
+}
+
+.pricing-price {
+  text-align: center;
+  font-weight: 400;
+}
+
+.pricing-list-desc {
+  list-style-type: none;
+  margin-left: 70px;
+}
+
+.pricing-list-desc-item {
+  margin-top: 10px;
+}
+
+.dolor {
+  margin-left: -19px;
+}
+
+.button {
+  background-color: gold;
+  margin-left: 105px;
+  height: 40px;
+  width: 100px;
+  border: 2px solid gold;
+  border-radius: 2px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.footer {
+  height: 85px;
+  width: 100%;
+  margin-bottom: -10px;
+  background-color: #ddd;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin-left: 800px;
+}
+
+.footer-list-item {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#copyright {
+  margin-left: 820px;
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: -10px;
+}
